@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python
+python-engine/.venv
+python-engine/build
+python-engine/dist
+python-engine/__pycache__
+*.pyc
+
+# Tauri binaries
+src-tauri/binaries
+src-tauri/target
+
+# Local user data
+user_data/
+*.log
+
+# AI Agent Specific (Local)
+.agents/
+About_app.md
+about_build.md
+About_web.md
+brain/
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+.env.local
+*.local
+
+# Rust / Tauri
+src-tauri/target/
+target/
+src-tauri/binaries/
+src-tauri/gen/
