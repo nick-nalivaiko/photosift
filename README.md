@@ -67,4 +67,4 @@ PhotoSift is a high-performance desktop application designed for rapid photo org
 
 ## License 📜
 
-Private / Proprietary.
+MIT License. See [LICENSE](LICENSE) for details.

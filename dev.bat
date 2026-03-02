@@ -1,13 +1,13 @@
 @echo off
-echo =======================================================
-echo Initializing MSVC C++ Build Environment for Tauri/Rust...
-echo =======================================================
-call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
 
-echo.
-echo Adding Cargo to PATH...
-set PATH=%PATH%;C:\Users\Nicko\.cargo\bin
+:: Use globally installed npm if available
+where npm >nul 2>1
+if %ERRORLEVEL% NEQ 0 (
+    echo [ERROR] npm not found in PATH.
+    pause
+    exit /b
+)
 
-echo.
-echo Starting Tauri Development Server...
+echo Starting PhotoSift in Dev Mode...
 npm run tauri dev
+pause
