@@ -2,7 +2,7 @@
 name = "photosift"
 version = "0.1.0"
 description = "PhotoSift — Desktop photo sorter by face recognition"
-authors = ["ProvodOK"]
+authors = ["Nick Nalivaiko"]
 edition = "2021"
 
 [lib]
