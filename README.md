@@ -5,6 +5,16 @@
 
 PhotoSift is a high-performance desktop application designed for rapid photo organization using AI-powered face recognition. It helps you sort through thousands of images in seconds, grouping them by people, dates, and quality.
 
+## Download 📥
+
+**[Download the latest version for Windows](https://github.com/nick-nalivaiko/photosift/releases/latest)**
+
+1. Download the `PhotoSift_v0.1.0.zip` file.
+2. Extract it to any folder.
+3. Run `PhotoSift.exe` to start organizing!
+
+---
+
 ## Key Features 🚀
 
 - **AI Face Recognition**: Automatically detect and group people across your entire library.
